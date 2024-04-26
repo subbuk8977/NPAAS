@@ -1,0 +1,84 @@
+.newsletter{
+    background: #ffffff;
+    box-shadow: 0px 0px 55px rgb(0, 0, 0, .15);
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+    
+    height:800px;
+    padding: 30px 30px;
+    border-radius: 25px;
+    color: rgb(65, 65, 83);
+    overflow: scroll;
+}
+.newsletter-two{
+    background: #ffffff;
+    box-shadow: 0px 0px 55px rgb(0, 0, 0, .15);
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+    
+    height:400px;
+    padding: 30px 30px;
+    border-radius: 25px;
+    color: rgb(65, 65, 83);
+    overflow: scroll;
+}
+.newsletter img{
+    height: 90px;
+    margin-bottom: 10px;
+
+}
+
+.newsletter hr{
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background: rgb(65, 65, 83, .5);
+}
+
+.newsletter p{
+    width: 350px;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(65, 65, 83, .5);
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.one{
+    border-radius: 10px;
+    width: 350px;
+    height: 55px;
+    border: 1px solid rgb(65, 65, 83, .5);
+    padding: 0 20px;
+    color: rgb(65, 65, 83);;
+    margin-bottom: 36px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgb(65, 65, 83, .5);
+}
+
+.newsletter button{
+    border: 1px solid #E95A6B;
+    border-radius: 10px;
+    height: 55px;
+    background-color: #E95A6B;
+    color: white;
+    padding: 0 35px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin-bottom: 25px;
+}
+.newsletter button:hover{
+    background-color: #ffffff;
+    border-color: #E95A6B;
+    color: #E95A6B;
+}
